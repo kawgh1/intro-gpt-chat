@@ -1,4 +1,8 @@
+### This is a project based on a course by Stephen Grider at ![here](https://www.udemy.com/course/chatgpt-and-langchain-the-complete-developers-masterclass/learn/quiz/6093328#questions)
+
 ### Chat style LLMs
+
+- Please see the file `requirements.txt` before running locally
 
 - There (at least) two basic types of LLMs, traditional (or completion style) and chat style. Traditional is an input in output out kind of flow. There's no context between input requests unless they are chained together.
 
