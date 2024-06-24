@@ -1,4 +1,4 @@
-### This is a project based on a course by Stephen Grider at ![here](https://www.udemy.com/course/chatgpt-and-langchain-the-complete-developers-masterclass/learn/quiz/6093328#questions)
+### This is a project based on a course by Stephen Grider at [here](https://www.udemy.com/course/chatgpt-and-langchain-the-complete-developers-masterclass/learn/quiz/6093328#questions)
 
 ### Chat style LLMs
 
