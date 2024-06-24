@@ -28,6 +28,7 @@
 - ConversationBufferMemory
 
   - This is the Memory we are going to use to keep track of our session conversation with ChatGPT, so that we send a complete transcript of the latest conversation with each new message to ChatGPT. This allows us to reference previous messages in the chat. It allows for ChatGPT to "remember what we were talking about." Except, really it isn't. It's just referencing prior chat data we are sending it. It does not remember anything.
+    - ![conversation-memory-diagram](https://raw.githubusercontent.com/kawgh1/intro-gpt-chat/main/images/Remembering%20Messages%202.png)
 
 - `from langchain.memory import ConversationBufferMemory, FileChatMessageHistory`
   - Using `FileChatMessageHistory` we can save our conversations to a file like `messages.json` or to a DB or Redis or anywhere. This allows us to return any user's previous conversations to a Chat session so the user can pick up where they left off on an old conversation, or start a new one.
