@@ -31,3 +31,5 @@
 
 - `from langchain.memory import ConversationBufferMemory, FileChatMessageHistory`
   - Using `FileChatMessageHistory` we can save our conversations to a file like `messages.json` or to a DB or Redis or anywhere. This allows us to return any user's previous conversations to a Chat session so the user can pick up where they left off on an old conversation, or start a new one.
+
+![old_convo](https://raw.githubusercontent.com/kawgh1/intro-gpt-chat/main/images/Chat%20GPT%20remembers%20previous%20conversation.png)
